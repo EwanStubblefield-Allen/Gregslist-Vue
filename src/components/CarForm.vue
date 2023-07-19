@@ -14,24 +14,21 @@
       <label for="imgUrl">ImgUrl</label>
     </div>
     <div class="form-floating mb-3">
-      <input v-model="editable.year" required type="number" class="form-control" id="year" placeholder="Year..."
-        min="1800" max="2027">
+      <input v-model="editable.year" required type="number" class="form-control" id="year" placeholder="Year..." min="1800" max="2027">
       <label for="year">Year</label>
     </div>
     <div class="form-floating mb-3">
-      <input v-model="editable.price" required type="number" class="form-control" id="price" placeholder="Price..."
-        min="0" max="100000000">
+      <input v-model="editable.price" required type="number" class="form-control" id="price" placeholder="Price..." min="0" max="100000000">
       <label for="price">Price</label>
     </div>
     <div class="form-floating mb-3">
-      <textarea v-model="editable.description" class="form-control" placeholder="Leave a description here"
-        id="description" style="height: 100px"></textarea>
+      <textarea v-model="editable.description" class="form-control" placeholder="Leave a description here" id="description"
+        style="height: 100px"></textarea>
       <label for="description">Description</label>
     </div>
     <div class="mb-3">
       <label for="color" class="form-label">Color</label>
-      <input v-model="editable.color" type="color" class="form-control form-control-color" id="color"
-        title="Choose your color">
+      <input v-model="editable.color" type="color" class="form-control form-control-color" id="color" title="Choose your color">
     </div>
     <div class="mb-3">
       <label for="engineType">Engine Type</label>
